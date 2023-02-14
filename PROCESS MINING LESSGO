@@ -1,3 +1,4 @@
-pp big
-pp huge
-pp small
+import pandas as pd
+
+df = pd.read_csv('Road_Traffic_Fine_Management_Process.XE-test.csv')
+df2 = pd.read_csv('Road_Traffic_Fine_Management_Process.XE-training.csv')
